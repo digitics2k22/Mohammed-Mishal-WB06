@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-og{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c193d;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+
+.navbar-og > ul{
+    display: flex;
+    list-style: none;
+    margin: .5rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbar-og > ul > li{
+    color: white;
+   
+}
+.navbar-og > ul > li > a{
+    text-decoration: none;
+    color: unset;
+}
+
+.home > img{
+    object-fit: contain;
+    width: 100%;
+    height: 40rem;
+    
+}
+
+.home{
+    width: 100%;
+    height: 300px;
+}
+
+.carousel{
+    padding-top: 3rem;
+}
+
+.events > h1{
+    margin: 2rem auto;
+   
+}
+
+.home > .title{
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #0c193d !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    color: white;
+}
+
+.card-body{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.card > img{
+    margin: 1rem auto;
+    max-width: 240px;
+    
+}
+
+.events-container > a{
+    text-decoration: none;
+}
+
+.events-container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+@media only screen and (max-width: 560px) {
+    .card{
+        width: 18rem;
+        margin: 0 auto;
+    }
+  }
+
+ footer{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0c193d;
+    color: white;
+ } 
